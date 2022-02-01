@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Sign up today!</title>
+</head>
+<body>
+    <div class="card">
+        <div class="formCont" >
+            <h1>ODIN.</h1>
+            <p>Welcome to The Odin Project. <br> Sign up to get started.  </p>
+            
+            <form action="" method="post">
+
+                <div class="col-1">
+                    <label for="firstName">First Name:</label>
+                    <input placeholder="Bob" type="text" id="firstName">
+
+                    <label for="user_email">Email:</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">              
+                </div>
+
+                <div class="col-2">
+                    <label for="lastName">Last Name:</label>
+                    <input placeholder="Bob" type="text" id="firstName">
+    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(000)000-0000">
+
+                    <label for="v_user_password">Verify Password:</label>
+                    <input type="password" id="v_user_password" name="v_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">  
+                </div>
+
+                <div>
+                    <button type="submit">Submit </button>
+                    <p class="account">Already have an account? <a href="/">Log in</a></p>
+                </div>
+                
+
+            </form>
+        </div>
+
+        <div class="splash">  
+
+        </div>
+    </div>
+
+
+</body>
+</html>
